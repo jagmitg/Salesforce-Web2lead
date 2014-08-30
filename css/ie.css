@@ -1,0 +1,15 @@
+.ie .featu-icon { line-height:75px; }
+.ie8 .featu-icon { line-height:75px; }
+.ie .diva-icon, .ie8 .diva-icon { line-height:18px; }
+.ie #navi3 a, .ie8 #navi3 a, .ie #navi4 a, .ie8 #navi4 a  { line-height:20px; }
+.ie .howto .how-txt ul li span, .ie8 .howto .how-txt ul li span { line-height:14px; }
+.ie .social-register a span, .ie8 .social-register a span { display:none; }
+.ie .social-register a, .ie8 .social-register a { text-align:center; }
+.ie .privacy a, .ie8 .privacy a, .ie .privacy span, .ie8 .privacy span { display:none;}
+.ie .social, .ie8 .social { display:none; }
+.ie footer .copyr, .ie8 footer .copyr { width:100%; }
+
+.ie8 .video-js p { display:none; }
+.ie8 .wrap input, .ie8 .wrap input,.ie8 .wrap input {  color:#909090!important; }
+
+ 

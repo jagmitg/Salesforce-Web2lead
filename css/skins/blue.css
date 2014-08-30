@@ -1,0 +1,54 @@
+/* ######## Blue Skin Styles #########  */ 
+
+
+.main-section { background:url("../../img/main-bg.gif") no-repeat; background-size:100% 600px; } 
+
+#slider-bg { background: #1EAAEC url('http://www.designgenie.co.uk/img/backgroundbg.jpg') repeat-x; width: 100%; height: auto; margin-bottom: 27px; color: #a7a7a7; text-shadow: 0px 1px 0px #000; }
+
+.main-section .main-left a.button-hover, .cta a.button-hover, .main-section .main-center a.button-hover { background-color:#3b95ca; color:#ffffff; box-shadow:0 3px 0 rgba(0,0,0,0.10), 0 0px 2px rgba(255,255,255,0.1) inset, 0 0px 3px rgba(0,0,0,0.10);  }
+
+.vjs-default-skin .vjs-big-play-button { background-color: rgba(59, 149, 202, 0.8)!important; }
+
+
+#navimenu li.signup-nav a.button-hovera { color:#3b95ca; }
+
+.menu-nav li.signup-nav { background-color:#3b95ca; border:3px solid #3b95ca; }
+
+
+.title-div { background-color:#3b95ca; }
+.diva-icon { background-color:#3b95ca; color:#ffffff; }
+.diva-hover { color:#3b95ca; }
+
+.featu-icon { background-color:#3b95ca; }
+
+#navi2 a.activeSlide span { background-color:#3b95ca; }
+
+.slide1 .slide-txt p.subtitle, .howto p.subtitle  { color:#3b95ca; }
+
+.testimonials { background:url("../../img/main-bg.png") no-repeat; background-size:100% 730px; }
+
+.testi-img  { border:8px solid rgba(0,0,0,0.1); }
+
+.testi-job { color:rgba(255,255,255,0.8); }
+
+.testi-company { color:#000000; background-color:#f5f7f9; }
+.company-hover { color:#ffffff; background-color:#3b95ca; }
+#navi4 a { background-color:rgba(0,0,0,0.1); color:#ffffff; border:1px solid rgba(0,0,0,0.1); }
+#navi4 a:hover { color:#3b95ca; }
+
+
+div.b { background-color:#3b95ca; }
+
+.testio-txt p.custo-comp { color:#3b95ca; }
+
+.howto .how-txt ul li span { color:#3b95ca; }
+
+.price-sub2 { background-color:#3b95ca;  }
+
+.price2 { background-color:#3b95ca;   }
+
+.arrow-divi2 {   background-color:#3b95ca; }
+
+.cta {  background-color:#3b95ca; }
+
+.wrap input[type=submit]  {   background-color:#3b95ca!important;  }
