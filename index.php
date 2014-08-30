@@ -4,13 +4,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <title>Salesforce Web2lead Example</title>
-<link rel="stylesheet" href="css/bootstrap.min.css"/>
-<link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
-<link rel="stylesheet" href="css/font.css"/>
-<link rel="stylesheet" href="css/lightbox.css"/>
-<link rel="stylesheet" href="css/ie.css"/>
-<link rel="stylesheet" href="css/styles.css"/>
-<link rel="stylesheet" href="css/bootstrap-switch.min.css"/>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.0.2/css/bootstrap2/bootstrap-switch.css"/>
 </head>
 <body>
 	<div class="main-container">
