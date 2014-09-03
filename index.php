@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="main-container">
-		<?php include ('config.php');?>
+		<?php include ('class/config.php');?>
 
 			<form class="form-contact" id="contactform" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
 
@@ -21,7 +21,7 @@
 				<input type='hidden' name="lead_source" value="web-to-lead">
 				<input type='hidden' name="00ND0000005WdkH" value="Grade 3 (Hot)">
 				<input type="hidden" id="recordType" name="recordType" value="012D0000000kQtI">
-				<input type='hidden' name="00ND0000005ggmA" value="Design Genie Webinar">
+				<input type='hidden' name="00ND0000005ggmA" value="Example value">
 
 
 				<label for="first_name">First Name*</label>
