@@ -1,13 +1,13 @@
 <?php
 ini_set('display_errors',0);
 
-include('../conf.php');
+require_once dirname(__FILE__) . '/../config.php';
 
-//Empty
+//Empty//
 $query_string = ""; // Needs to be an empty query string
 $error = ""; //Needs to be an empty error string
 
-//SET DEBUG STATE//
+//SET SALESFORCE DEBUG MODE//
 if($debug === 1){
 	$additionalValue["debug"] = "1";
 		if($debugemail){
@@ -46,20 +46,11 @@ if($debug === 1){
 			
 		}
 
+		//Captcha Class
 
-	if($captcha){
-		$num1 = isset($_POST['num1']) ? $_POST['num1'] : "";
-		$num2 = isset($_POST['num2']) ? $_POST['num2'] : "";
-		$total = isset($_POST['captcha']) ? $_POST['captcha'] : "";
-		$final = intval($num1) + intval($num2) == intval($total);
-
-		if($final){
-			var_dump($final);
-		}else{
-
+		if($captcha){
+			include("captcha.php");		
 		}
-	}
-
 
 		//Validation End
 

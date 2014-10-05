@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="main-container">
-		<?php include ('class/config.php');?>
+		<?php include ('class/salesforce.php');?>
 
 			<form class="form-contact" id="contactform" action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
 
