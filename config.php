@@ -9,13 +9,14 @@ $toemail = 'jagmitg@gmail.com';
 $validation = true; //Turn on [true] or off [false] the validation system
 $validationtype = 1; //1 =simple validaton, check whether null, 2 = regex based validation, requires editing on validation file.
 $captcha = true;
+$url = 'https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8';
 $formsElement = ["first_name"		=> "First Name",
-									"last_name" 		=> "Last Name",
-								  "email" 				=> "Email",
-								  "company" 			=> "Company Name"];
+"last_name" 		=> "Last Name",
+"email" 				=> "Email",
+"company" 			=> "Company Name"];
 
 $additionalValue = ['Campaign_ID' => '701D0000000WmmL',
-										'oid' 				=> '',
-										'retURL' 			=> '/'];
+'oid' 				=> '',
+'retURL' 			=> '/'];
 
 ?>
